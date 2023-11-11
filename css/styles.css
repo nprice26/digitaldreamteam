@@ -1,0 +1,87 @@
+body, header, nav, main, footer, img, h1, h3, ul, aside, figure, figcaption, video{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    }
+    /*Styles rules for body and images*/
+    body{
+	
+	
+
+	  background-image: url('../images/matrix.jpg');
+	  height: 100%;
+	  background-attachment: fixed;
+	  background-size: 100% 100%; 
+	  
+	  background-color: black;
+	  color: rgb(0, 0, 0);
+	
+	
+    }
+    img, video{
+      max-width: 100%;
+      display: block;
+    }
+	
+	/*Styles for navigation area*/
+	    nav{
+		
+	      background-color: green;
+	    }
+	    nav ul{
+			
+	      style-type: none;
+	      text-align: center;
+	    }
+	    nav li{
+	      display: block;
+	      font-size: 1.5em;
+	      font-family: Geneva, Arial,       sans-serif;
+	      font-weight: bold;
+	      color: #fbfbfb;
+	    }
+	    nav li a{
+	      display:grid;
+	      color: #f6eee4;
+	      padding: 0.5em 2em;
+	      text-decoration: none;
+	    }
+		.center {
+		  display: block;
+		  margin-left: auto;
+		  margin-right: auto;
+		  width: 50%;
+		}
+		
+		img.a{
+			float:left;
+		}
+		img.b{
+			float:left;
+		}
+		.textright{
+		    font-size: 20px;
+		    padding-left: 20px;
+		    padding-top: 20%;
+		    float: right;
+		  }
+  		.textleft{
+  		    font-size: 20px;
+  		    padding-left: 20px;
+  		    padding-top: 20%;
+  		    float: right;
+  		  }
+		
+    /*Styles rules for footer content*/
+    footer{
+      text-align: center;
+      font-size: 0.85em;
+      background: ;
+      color: rgb(250, 250, 250);
+      padding: 1% 0%;
+    }
+    footer a{
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+    }
+    
