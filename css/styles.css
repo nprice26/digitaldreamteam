@@ -11,10 +11,10 @@ body, header, nav, main, footer, img, h1, h3, ul, aside, figure, figcaption, vid
 	  background-image: url('../images/matrix.jpg');
 	  height: 100%;
 	  background-attachment: fixed;
-	  background-size: 100% 100%; 
+	  background-size: 100% 100%; */
 	  
 	  background-color: black;
-	  color: rgb(0, 0, 0);
+	  color: green;
 	
 	
     }
