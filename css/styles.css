@@ -11,10 +11,7 @@ body, header, nav, main, footer, img, h1, h3, ul, aside, figure, figcaption, vid
 	  background-image: url('../images/matrix.jpg');
 	  height: 100%;
 	  background-attachment: fixed;
-	  background-size: 100% 100%; */
-	  
-	  background-color: black;
-	  color: green;
+	  background-size: 100% 100%; 
 	
 	
     }
@@ -29,9 +26,7 @@ body, header, nav, main, footer, img, h1, h3, ul, aside, figure, figcaption, vid
 	      background-color: green;
 	    }
 	    nav ul{
-			
-	      style-type: none;
-	      text-align: center;
+	      text-align: left;
 	    }
 	    nav li{
 	      display: block;
@@ -76,7 +71,7 @@ body, header, nav, main, footer, img, h1, h3, ul, aside, figure, figcaption, vid
     footer{
       text-align: center;
       font-size: 0.85em;
-      background: ;
+      background: none;
       color: rgb(250, 250, 250);
       padding: 1% 0%;
     }
